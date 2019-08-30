@@ -1,6 +1,6 @@
 {
   "name": "mui-flex-layout",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "repository": "https://github.com/SharonGrossman/mui-flex-layout.git",
   "author": "Sharon Grossman <sharong1337@gmail.com>",
