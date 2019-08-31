@@ -1,4 +1,5 @@
-# mui-flex-layout ![BuildStatus](https://travis-ci.org/SharonGrossman/mui-flex-layout.svg?branch=master)
+# mui-flex-layout :muscle:
+![BuildStatus](https://travis-ci.org/SharonGrossman/mui-flex-layout.svg?branch=master) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Install
 ```
