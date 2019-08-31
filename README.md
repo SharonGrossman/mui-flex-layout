@@ -1,4 +1,4 @@
-# mui-flex-layout ![BuildStatus](https://travis-ci.org/SharonGrossman/redux-sockets.svg?branch=master)
+# mui-flex-layout ![BuildStatus](https://travis-ci.org/SharonGrossman/mui-flex-layout.svg?branch=master)
 
 ## Install
 ```
