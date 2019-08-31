@@ -11,7 +11,7 @@
     "test": "yarn lint",
     "build": "rollup -c",
     "lint": "eslint src --fix",
-    "prepublish": "npm run build"
+    "prepublish": "yarn build"
   },
   "dependencies": {},
   "devDependencies": {
