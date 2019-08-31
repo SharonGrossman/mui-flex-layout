@@ -8,6 +8,7 @@
   "author": "Sharon Grossman <sharong1337@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "test": "yarn lint",
     "build": "rollup -c",
     "lint": "eslint src --fix",
     "prepublish": "npm run build"
