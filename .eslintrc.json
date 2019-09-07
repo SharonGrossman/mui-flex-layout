@@ -1,116 +1,16 @@
 {
-  "extends": ["plugin:react/recommended", "plugin:prettier/recommended"],
-  "parser": "babel-eslint",
   "env": {
+    "browser": true,
+    "commonjs": true,
     "es6": true,
-    "browser": true
+    "node": true
   },
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "settings": {
-    "react": {
-      "version": "latest"
-    }
-  },
-  "plugins": [
-    "react"
+  "parser": "babel-eslint",
+  "extends": [
+    "sharongrossman/react",
+    "plugin:prettier/recommended"
   ],
-  "rules": {
-    "react/jsx-boolean-value": [
-      "error",
-      "never"
-    ],
-    "react/jsx-closing-bracket-location": "error",
-    "react/jsx-curly-spacing": "error",
-    "react/jsx-equals-spacing": "error",
-    "react/jsx-first-prop-new-line": [
-      "error",
-      "multiline"
-    ],
-    "react/jsx-indent-props": [
-      "error",
-      2
-    ],
-    "react/jsx-indent": [
-      "error",
-      2
-    ],
-    "react/jsx-key": "error",
-    "react/jsx-no-duplicate-props": "error",
-    "react/jsx-no-target-blank": "error",
-    "react/jsx-no-undef": "error",
-    "react/jsx-no-literals": "error",
-    "react/jsx-no-comment-textnodes": "error",
-    "react/jsx-pascal-case": "error",
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
-    "react/jsx-wrap-multilines": "error",
-    "react/no-danger-with-children": "error",
-    "react/no-find-dom-node": "error",
-    "react/no-deprecated": "error",
-    "react/no-did-mount-set-state": "error",
-    "react/no-did-update-set-state": "error",
-    "react/no-direct-mutation-state": "error",
-    "react/no-is-mounted": "error",
-    "react/no-multi-comp": "error",
-    "react/no-render-return-value": "error",
-    "react/no-string-refs": "error",
-    "react/no-unknown-property": "error",
-    "react/prefer-es6-class": ["error", "always"],
-    "react/prefer-stateless-function": "error",
-    "react/react-in-jsx-scope": "error",
-    "react/require-render-return": "error",
-    "react/self-closing-comp": "error",
-    "react/display-name": "off",
-    "react/forbid-component-props": "off",
-    "react/forbid-prop-types": "off",
-    "react/jsx-filename-extension": "off",
-    "react/jsx-handler-names": "off",
-    "react/jsx-max-props-per-line": "off",
-    "react/jsx-no-bind": "error",
-    "react/jsx-sort-props": "off",
-    "react/no-children-prop": "error",
-    "react/no-comment-textnodes": "off",
-    "react/no-danger": "off",
-    "react/no-set-state": "off",
-    "react/no-unescaped-entities": "error",
-    "react/no-unused-prop-types": "off",
-    "react/prop-types": "off",
-    "react/require-extension": "off",
-    "react/require-optimization": "off",
-    "react/sort-comp": "off",
-    "react/sort-prop-types": "off",
-    "react/style-prop-object": "error",
-    "react/wrap-multilines": "off",
-    "react/jsx-tag-spacing": "error",
-    "react/no-array-index-key": "error",
-    "react/require-default-props": "off",
-    "react/forbid-elements": "off",
-    "react/forbid-foreign-prop-types": "off",
-    "react/void-dom-elements-no-children": "error",
-    "react/default-props-match-prop-types": "error",
-    "react/jsx-closing-tag-location": "error",
-    "react/no-redundant-should-component-update": "error",
-    "react/no-will-update-set-state": "error",
-    "react/boolean-prop-naming": "off",
-    "react/jsx-curly-brace-presence": "off",
-    "react/no-typos": "error",
-    "react/no-unused-state": "error",
-    "react/button-has-type": "error",
-    "react/destructuring-assignment": "error",
-    "react/jsx-one-expression-per-line": "off",
-    "react/no-access-state-in-setstate": "error",
-    "react/forbid-dom-props": "off",
-    "react/jsx-child-element-spacing": "off",
-    "react/jsx-max-depth": "off",
-    "react/jsx-sort-default-props": "off",
-    "react/no-this-in-sfc": "error",
-    "react/no-unsafe": "error",
-    "react/jsx-props-no-multi-spaces": "error",
-    "react/jsx-fragments": ["error", "syntax"]
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
